@@ -24,6 +24,10 @@
   // Neutral
 
   --clr-White: hsl(0, 0%, 100%);
+  --clr-White-bg: hsl(0, 0%, 100%);
+  --clr-White-bg-secondary: hsl(0, 0%, 100%);
+  --clr-Black: black;
+
   --clr-Pale-blue: hsl(221, 100%, 96%);
   --clr-Light-lavender: hsl(241, 100%, 89%);
   --clr-Dark-gray-blue: hsl(224, 30%, 27%);
@@ -37,18 +41,25 @@ $bp-small: 37.5em; // 600px
 body {
   font-family: "Hanken Grotesk", sans-serif;
   font-size: 1.1rem;
+  position: relative;
+  background-color: var(--clr-White-bg);
 }
 
 .top-container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   min-height: calc(100vh - 101.6px);
+
+  @media screen and (min-width: $bp-small) {
+    align-items: center;
+  }
 }
 
 .main-contents {
   display: grid;
   grid-template-columns: 1fr;
+  background-color: var(--clr-White-bg-secondary);
 
   @media screen and (min-width: $bp-small) {
     grid-template-columns: 1fr 1fr;

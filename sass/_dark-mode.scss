@@ -1,0 +1,20 @@
+:root.dark-mode {
+  // Neutral
+  --clr-White: hsl(0, 0%, 100%);
+  --clr-White-bg: hsl(233, 40%, 4%);
+  --clr-White-bg-secondary: hsl(233, 40%, 10%);
+  --clr-Black: rgb(255, 255, 255);
+}
+
+#dark-mode-toggle {
+  position: absolute;
+  right: 1.3rem;
+  top: 1rem;
+
+  svg {
+    filter: invert(100%);
+    @media screen and (min-width: $bp-small) {
+      filter: invert(50%);
+    }
+  }
+}
