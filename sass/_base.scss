@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+
+:root {
+  // Primary
+
+  --clr-Light-red: hsl(0, 100%, 67%);
+  --clr-Orangey-yellow: hsl(39, 100%, 56%);
+  --clr-Green-teal: hsl(166, 100%, 37%);
+  --clr-Cobalt-blue: hsl(234, 85%, 45%);
+
+  --clr-Light-red-pale: hsla(0, 100%, 67%, 0.1);
+  --clr-Orangey-yellow-pale: hsla(39, 100%, 56%, 0.1);
+  --clr-Green-teal-pale: hsla(166, 100%, 37%, 0.1);
+  --clr-Cobalt-blue-pale: hsla(234, 85%, 45%, 0.1);
+
+  // Gradients
+
+  --clr-Light-slate-blue: hsl(252, 100%, 67%); // (background)
+  --clr-Light-royal-blue: hsl(241, 81%, 54%); // (background)
+
+  --clr-Violet-blue: hsla(256, 72%, 46%, 1); //(circle)
+  --clr-Persian-blue: hsla(241, 72%, 46%, 0); //(circle)
+
+  // Neutral
+
+  --clr-White: hsl(0, 0%, 100%);
+  --clr-Pale-blue: hsl(221, 100%, 96%);
+  --clr-Light-lavender: hsl(241, 100%, 89%);
+  --clr-Dark-gray-blue: hsl(224, 30%, 27%);
+}
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 1.1rem;
+}
+
+.top-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-contents {
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,25 @@
+{
+  "name": "results-summary-component",
+  "version": "1.0.0",
+  "description": "Frontend mentor result summary component challenge",
+  "web": "./dist/index.html",
+  "targets": {
+    "web": {
+      "context": "browser",
+      "publicUrl": "./"
+    }
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Alamin",
+  "license": "(MIT)",
+  "dependencies": {
+    "parcel": "^2.8.3",
+    "sass": "^1.60.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3"
+  }
+}
