@@ -1,6 +1,6 @@
 <h1 align="center">Results Summary Component - Frontend Mentor</h1>
 <h2 align="center">
-Check out the <a href="" target="_blank">Live Site here</a>.
+Check out the <a href="https://result-summary-alamin.netlify.app/" target="_blank">Live Site here</a>.
 </h2>
 </br>
 
@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - 🖱️[Solution URL]()
-- 🖱️[Live Site URL]()
+- 🖱️[Live Site URL](https://result-summary-alamin.netlify.app/)
 
 ## My process
 
