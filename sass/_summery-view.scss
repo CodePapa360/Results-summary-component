@@ -39,20 +39,32 @@
       background-color: var(--clr-Light-red-pale);
 
       &__catagory {
-        color: red;
+        color: var(--clr-Light-red);
       }
     }
 
     &__memory {
       background-color: var(--clr-Orangey-yellow-pale);
+
+      &__category {
+        color: var(--clr-Orangey-yellow);
+      }
     }
 
     &__verbal {
       background-color: var(--clr-Green-teal-pale);
+
+      &__category {
+        color: var(--clr-Green-teal);
+      }
     }
 
     &__visual {
       background-color: var(--clr-Cobalt-blue-pale);
+
+      &__category {
+        color: var(--clr-Cobalt-blue);
+      }
     }
   }
 
@@ -64,13 +76,31 @@
     border-radius: 30px;
     color: var(--clr-Pale-blue);
     cursor: pointer;
+    transition: background 0.2s ease-in-out;
 
     &:hover {
-      background: linear-gradient(
+      background-color: var(--clr-Light-slate-blue);
+      background-image: linear-gradient(
         to bottom,
         var(--clr-Light-slate-blue),
         var(--clr-Light-royal-blue)
       );
+    }
+
+    &:active {
+      background-color: var(--clr-Dark-gray-blue);
+      background-image: linear-gradient(
+        to top,
+        var(--clr-Light-slate-blue),
+        var(--clr-Light-royal-blue)
+      );
+    }
+
+    &:focus {
+      outline-style: dotted;
+      outline-color: var(--clr-Green-teal);
+      outline-offset: 3px;
+      outline-width: 3px;
     }
   }
 }
