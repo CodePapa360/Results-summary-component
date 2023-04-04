@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- 🖱️[Solution URL]()
+- 🖱️[Solution URL](https://www.frontendmentor.io/solutions/responsive-results-summary-component-design-with-sass-c8lqEuT6Nh)
 - 🖱️[Live Site URL](https://result-summary-alamin.netlify.app/)
 
 ## My process
