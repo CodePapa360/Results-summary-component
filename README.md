@@ -14,7 +14,7 @@ Just completed the Results [Results summary component challenge from Frontend Me
 
 #### Mobile view
 
-<p><img align="center" width="30%" src="screenshots/Screenshot mobile white - Frontend Mentor Results summary component.png"/></p>
+<p><img align="center" width="40%" src="screenshots/Screenshot mobile white - Frontend Mentor Results summary component.png"/></p>
 
 ### The challenge
 
